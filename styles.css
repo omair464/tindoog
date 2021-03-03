@@ -52,6 +52,11 @@ h3{
     font-size: 1.5rem;
 
 }
+ul{
+    position:absolute;
+    right: 0;
+}
+
 p{
     color: #8f8f8f;
     font-family:"ubuntu";
@@ -126,3 +131,55 @@ h2{
     text-align: center;
   
 }
+
+
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    color:#fff;
+    padding: 10% 15%;
+
+    
+}
+
+#cta h3{
+    padding-bottom: 10%;
+    font-size: 3.5rem;
+}
+#cta button{
+    margin: 15px;
+}
+
+#footer{
+    text-align: center;
+    background-color: #fff;
+    padding: 5% 15% 0 15%;
+}
+
+#footer i{
+    margin: 15px;
+}
+a{
+   color: black;
+}
+a:hover{
+    color: gray;
+}
+
+@media (max-width: 1028px)
+{
+    .container-fluid{ 
+        text-align :center;
+    }
+
+
+    .phone{
+        
+      position: static;
+      width:100%;
+      transform: rotate(0deg);
+        
+       
+    }
+}
+
